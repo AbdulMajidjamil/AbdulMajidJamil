@@ -8,7 +8,7 @@
 
 ## 🧑‍💻 About Me
 
-I am a **Cybersecurity and Digital Forensics Trainer** with over **6 years of experience** in IT support, security training, and applied cybersecurity research. I am the **Founder & Executive Director of Pakistan Cyber Security & Digital Forensics (PCSDF)**, an initiative dedicated to empowering youth and women through practical cybersecurity education, awareness, and hands-on skill development.
+I am a **Cybersecurity and Digital Forensics Trainer** with over **10+ years of experience** in IT support, security training, and applied cybersecurity research. I am the **Founder & Executive Director of Pakistan Cyber Security & Digital Forensics (PCSDF)**, an initiative dedicated to empowering youth and women through practical cybersecurity education, awareness, and hands-on skill development.
 
 Alongside training, I worked as a **Researcher under the RECYPHER EU Project at IBA University**, mentoring student teams in applied cybersecurity research and project development. My work emphasizes **real-world security scenarios, ethical practices, and industry-relevant skills** rather than purely theoretical learning.
 
@@ -113,3 +113,4 @@ My goal is to help learners **think like defenders, understand attackers, and ac
 ---
 
 ### 🔐 *Empowering Learners. Securing the Digital Future.*
+
