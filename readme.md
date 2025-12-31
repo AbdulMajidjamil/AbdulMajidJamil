@@ -1,97 +1,81 @@
 # 👋 Hi, I’m Abdul Majid Jamil
 
+### Founder & Executive Director – Pakistan Cyber Security & Digital Forensics (PCSDF)  
 ### Cybersecurity & Digital Forensics Trainer | Security Researcher | SOC & VAPT Specialist  
-📍 Karachi, Pakistan  
+📍 Karachi, Pakistan
 
 ---
 
 ## 🧑‍💻 About Me
 
-I am a **Cybersecurity and Digital Forensics Trainer** with over **6 years of experience** in IT support, security training, and applied cybersecurity research. I am the **Founder of Pakistan Cyber Security & Digital Forensic (PCSDF)**, an initiative focused on empowering youth and women through practical cybersecurity education, awareness, and hands-on skill development.
+I am a **Cybersecurity and Digital Forensics Trainer** with over **6 years of experience** in IT support, security training, and applied cybersecurity research. I am the **Founder & Executive Director of Pakistan Cyber Security & Digital Forensics (PCSDF)**, an initiative dedicated to empowering youth and women through practical cybersecurity education, awareness, and hands-on skill development.
 
-Alongside training, I have worked as a **Researcher under the RECYPHER EU Project at IBA University**, where I led student teams in applied cybersecurity research and project development. My work emphasizes real-world security scenarios, ethical practices, and industry-relevant skills rather than purely theoretical learning.
+Alongside training, I worked as a **Researcher under the RECYPHER EU Project at IBA University**, mentoring student teams in applied cybersecurity research and project development. My work emphasizes **real-world security scenarios, ethical practices, and industry-relevant skills** rather than purely theoretical learning.
 
 ---
 
 ## 🎓 Academic & Professional Background
 
-- Cybersecurity & Digital Forensics Trainer  
-- Researcher – **RECYPHER EU Project (IBA University)**  
-- Founder – **Pakistan Cyber Security & Digital Forensic (PCSDF)**  
-- IT Executive (Enterprise & Campus IT Operations Experience)  
+- **Founder & Executive Director** – Pakistan Cyber Security & Digital Forensics (PCSDF)  
+- **Cybersecurity & Digital Forensics Trainer**  
+- **Researcher** – RECYPHER EU Project (IBA University)  
+- **IT Executive** – Enterprise & Campus IT Operations
 
-I have delivered training and workshops under national and international programs including **NAVTTC, BBSYDP, GIZ**, and for financial institutions such as **Samba Bank Limited** and **Bank Islami**.
+I have delivered workshops and training programs under national and international initiatives, including **NAVTTC, BBSYDP, GIZ**, and for financial institutions such as **Samba Bank Limited** and **Bank Islami**.
 
 ---
 
 ## 🧠 Areas of Expertise
 
-- Security Operations Center (SOC Level 1–3)
-- Incident Response & Threat Analysis
-- Web Application Security & VAPT
-- Digital Forensics & Evidence Handling
-- Data Privacy, Data Protection & Information Security
-- Cybersecurity Awareness & Capacity Building
+- Security Operations Center (SOC Level 1–3)  
+- Incident Response & Threat Analysis  
+- Web Application Security & VAPT  
+- Digital Forensics & Evidence Handling  
+- Data Privacy, Data Protection & Information Security  
+- Cybersecurity Awareness & Capacity Building  
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-**Cybersecurity Tools**
-- Burp Suite  
-- Wireshark  
-- Metasploit  
-- Nessus  
-- Nmap  
-- Splunk  
-- Wazuh  
-
-**Digital Forensics**
-- Autopsy  
-- FTK Imager  
-- Volatility  
-
-**Platforms & OS**
-- Kali Linux  
-- Windows Server  
-- Ubuntu  
-
-**Research & Hardware Labs**
-- Hack5 (Wi-Fi Pineapple, Rubber Ducky, OMG Cables)
+**Cybersecurity Tools:** Burp Suite, Wireshark, Metasploit, Nessus, Nmap, Splunk, Wazuh  
+**Digital Forensics:** Autopsy, FTK Imager, Volatility  
+**Platforms & OS:** Kali Linux, Windows Server, Ubuntu  
+**Research & Hardware Labs:** Hack5 (Wi-Fi Pineapple, Rubber Ducky, OMG Cables)
 
 ---
 
 ## 🧪 Research & Projects
 
 ### 🔹 RECYPHER EU Project – IBA University
-Worked as a **Researcher and Student Mentor**, guiding teams on:
-- Cybersecurity research methodologies  
-- Practical attack & defense simulations  
-- Hardware-based security testing using Hack5 devices  
+- Guided student teams on cybersecurity research methodologies  
+- Conducted practical attack & defense simulations  
+- Performed hardware-based security testing using Hack5 devices  
 
-Projects were showcased during the **RECYPHER International Conference**, attended by European cybersecurity researchers.
+Projects were showcased at the **RECYPHER International Conference**, attended by European cybersecurity researchers.
 
 ### 🔹 PCSDF Initiatives
-- Cyber Women Initiative (free training & awareness)
-- Capture The Flag (CTF) competitions
-- Community cybersecurity awareness programs
-- Student mentoring and internship programs
+- **Cyber Women Initiative** – free training & awareness programs  
+- **Capture The Flag (CTF)** competitions  
+- Community cybersecurity awareness programs  
+- Student mentoring and internship programs  
 
 ---
 
 ## 📜 Certifications
 
-- Google Cybersecurity Professional Certificate (Coursera)
-- Certified Ethical Hacker (CEH) – EC-Council
-- Incident Response & Digital Forensics – ICDFA (Nigeria)
-- Network Routing & Switching Certification
-- Ongoing professional upskilling in SOC & Threat Hunting
+- Google Cybersecurity Professional Certificate (Coursera)  
+- Certified Ethical Hacker (CEH) – EC-Council  
+- Incident Response & Digital Forensics – ICDFA (Nigeria)  
+- Network Routing & Switching Certification  
+- Ongoing professional upskilling in SOC & Threat Hunting  
 
 ---
 
 ## 🧑‍🏫 Teaching Philosophy
 
-I believe cybersecurity education must be **practical, ethical, and experience-driven**. My training style focuses on:
+I believe cybersecurity education must be **practical, ethical, and experience-driven**. My training style emphasizes:  
+
 - Hands-on labs and simulations  
 - Real-world attack and defense scenarios  
 - Research-based learning  
@@ -122,9 +106,9 @@ My goal is to help learners **think like defenders, understand attackers, and ac
 
 ## 📫 Connect With Me
 
-- **Email:** abdulmajidjamil@hotmail.com  
-- **LinkedIn:** https://linkedin.com/in/abdulmajidjamil  
-- **Website:** https://pcsdf.com  
+- **Email:** [abdulmajidjamil@hotmail.com](mailto:abdulmajidjamil@hotmail.com)  
+- **LinkedIn:** [linkedin.com/in/abdulmajidjamil](https://linkedin.com/in/abdulmajidjamil)  
+- **Website:** [pcsdf.com](https://pcsdf.com)
 
 ---
 
