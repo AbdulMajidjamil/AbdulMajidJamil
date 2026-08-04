@@ -90,6 +90,15 @@ for **women & youth inclusion** in cyber.
 
 <img src="./assets/divider.svg" width="100%" alt="─────"/>
 
+<!-- ░░░░░░░░░░░░░░░░░░░░  RADAR  ░░░░░░░░░░░░░░░░░░░░ -->
+### `> ./radar --scan`
+
+<div align="center">
+  <img src="./assets/skills-radar.svg" width="74%" alt="skills radar — proficiency across core security domains"/>
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="─────"/>
+
 <!-- ░░░░░░░░░░░░░░░░░░░░  CERTS  ░░░░░░░░░░░░░░░░░░░░ -->
 ### `> ls -la certifications/`
 
@@ -143,6 +152,53 @@ for **women & youth inclusion** in cyber.
 | **2016** | ICE Cube | Facial-Controlled Wheelchair using Multilayer Perceptron (Time–Frequency) |
 
 > Active on the **ReCYP:HER** project — adaptive IT-defense strategies & digital forensics.
+
+<img src="./assets/divider.svg" width="100%" alt="─────"/>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░  CAREER TIMELINE  ░░░░░░░░░░░░░░░░░░░░ -->
+### `> git log --career --graph`
+
+<div align="center">
+  <img src="./assets/career-timeline.svg" width="94%" alt="career timeline from 2013 to present"/>
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="─────"/>
+
+<!-- ░░░░░░░░░░░░░░░░░░░░  PROJECTS  ░░░░░░░░░░░░░░░░░░░░ -->
+### `> ls -la ~/projects`
+
+#### 🛰️ Cloud-Based Wazuh SIEM — Threat Detection Platform · `IEEE 2024`
+Real-time security monitoring and threat detection on a cloud-deployed Wazuh stack — the foundation of a peer-reviewed IEEE paper.
+`Wazuh` · `SIEM` · `Cloud` · `Threat Detection` · `DFIR`
+
+#### 📐 CH-FR-PC — Unified Security-Posture Metric · `ICTAR 2026`
+A tri-dimensional framework fusing **Cyber Hygiene**, **Digital-Forensic Readiness** and **Privacy Compliance** into one measurable score.
+`Framework` · `GRC` · `Privacy` · `Research`
+
+#### 🧬 Adversarial Patch Attacks on NIDS · `ICFAR 2026`
+Adversarial-ML research that disrupts heterogeneous deep-learning architectures powering **network intrusion detection**.
+`Adversarial ML` · `Deep Learning` · `NIDS` · `Python`
+
+#### 🧠 AI-Enhanced Cybersecurity Maturity Framework · `ICSIS 2025`
+Comparative maturity model for Pakistani corporations, benchmarked against **Singapore** and **Turkey**.
+`AI` · `Maturity Model` · `GRC` · `Benchmarking`
+
+#### 🐉 Ethical-Hacking Lab Toolkit
+Hands-on offensive tooling for training & CTFs — packet sniffing plus Android and Windows exploitation demonstrations.
+`Wireshark` · `Metasploit` · `Pentest` · `CTF`
+
+#### ♿ Facial-Controlled Wheelchair (MLP · Time–Frequency) · `ICE Cube 2016`
+Final-year assistive-tech build: an expression-driven wheelchair using a multilayer perceptron over time–frequency features.
+`Machine Learning` · `Signal Processing` · `Assistive Tech` · `Hardware`
+
+<details>
+<summary><b>🔧 More academic & hardware builds</b></summary>
+
+- **Mini UPS** — designed & built an uninterruptible power supply *(Basic Electronics)*.
+- **Solar-Panel Electrical System** — off-grid solar power build *(Basic Electronics)*.
+- **LDR Line-Following Robot** — sensor-guided autonomous robot *(Microprocessor)*.
+
+</details>
 
 <img src="./assets/divider.svg" width="100%" alt="─────"/>
 

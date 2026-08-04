@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560" role="img" font-family="'SFMono-Regular',Consolas,Menlo,monospace">
+<defs>
+ <radialGradient id="fill" cx="0.5" cy="0.5" r="0.5">
+   <stop offset="0" stop-color="#22D3EE" stop-opacity="0.55"/>
+   <stop offset="1" stop-color="#22D3EE" stop-opacity="0.12"/>
+ </radialGradient>
+ <linearGradient id="swp" x1="0" y1="0" x2="1" y2="0">
+   <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+   <stop offset="1" stop-color="#22D3EE" stop-opacity="0.35"/>
+ </linearGradient>
+ <filter id="rg" x="-60%" y="-60%" width="220%" height="220%">
+   <feGaussianBlur stdDeviation="2.4" result="b"/><feMerge>
+   <feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+   .poly{transform-box:fill-box;transform-origin:center;animation:grow 1.6s cubic-bezier(.2,.8,.2,1) .3s both}
+   @keyframes grow{from{transform:scale(.02);opacity:0}to{transform:scale(1);opacity:1}}
+   .dot{opacity:0;animation:pop .01s 1.5s forwards}@keyframes pop{to{opacity:1}}
+   @media (prefers-reduced-motion: reduce){.poly,.dot{opacity:1;transform:none;animation:none}}
+ </style>
+</defs>
+<rect width="720" height="560" fill="#04060D" rx="14"/>
+<text x="360" y="42" text-anchor="middle" font-size="17" fill="#22D3EE" letter-spacing="2">&gt; ./radar --scan capabilities</text>
+<polygon points="360.0,248.0 396.4,269.0 396.4,311.0 360.0,332.0 323.6,311.0 323.6,269.0" fill="none" stroke="#1b3a5b" stroke-width="1" opacity="0.42"/>
+<polygon points="360.0,206.0 432.7,248.0 432.7,332.0 360.0,374.0 287.3,332.0 287.3,248.0" fill="none" stroke="#1b3a5b" stroke-width="1" opacity="0.50"/>
+<polygon points="360.0,164.0 469.1,227.0 469.1,353.0 360.0,416.0 250.9,353.0 250.9,227.0" fill="none" stroke="#1b3a5b" stroke-width="1" opacity="0.57"/>
+<polygon points="360.0,122.0 505.5,206.0 505.5,374.0 360.0,458.0 214.5,374.0 214.5,206.0" fill="none" stroke="#1b3a5b" stroke-width="1" opacity="0.65"/>
+<g stroke="#1b3a5b" stroke-width="1" opacity="0.5">
+<line x1="360" y1="290" x2="360.0" y2="122.0"/>
+<line x1="360" y1="290" x2="505.5" y2="206.0"/>
+<line x1="360" y1="290" x2="505.5" y2="374.0"/>
+<line x1="360" y1="290" x2="360.0" y2="458.0"/>
+<line x1="360" y1="290" x2="214.5" y2="374.0"/>
+<line x1="360" y1="290" x2="214.5" y2="206.0"/>
+</g>
+<g><path d="M360,290 L360,122 A168,168 0 0 1 505.5,206.0 Z" fill="url(#swp)" opacity="0.5"/><line x1="360" y1="290" x2="360" y2="122" stroke="#67E8F9" stroke-width="1.5" opacity="0.6"/><animateTransform attributeName="transform" type="rotate" from="0 360 290" to="360 360 290" dur="6s" repeatCount="indefinite"/></g>
+<text x="360" y="108" text-anchor="middle" font-size="12.5" fill="#E2E8F0" font-weight="bold">Offensive / VAPT</text>
+<text x="360" y="123" text-anchor="middle" font-size="10.5" fill="#22D3EE">93%</text>
+<text x="523" y="192" text-anchor="start" font-size="12.5" fill="#E2E8F0" font-weight="bold">DFIR &amp; Forensics</text>
+<text x="523" y="207" text-anchor="start" font-size="10.5" fill="#22D3EE">86%</text>
+<text x="523" y="394" text-anchor="start" font-size="12.5" fill="#E2E8F0" font-weight="bold">SOC / SIEM</text>
+<text x="523" y="409" text-anchor="start" font-size="10.5" fill="#22D3EE">82%</text>
+<text x="360" y="478" text-anchor="middle" font-size="12.5" fill="#E2E8F0" font-weight="bold">Infra &amp; Identity</text>
+<text x="360" y="493" text-anchor="middle" font-size="10.5" fill="#22D3EE">90%</text>
+<text x="197" y="394" text-anchor="end" font-size="12.5" fill="#E2E8F0" font-weight="bold">Research &amp; AI</text>
+<text x="197" y="409" text-anchor="end" font-size="10.5" fill="#22D3EE">84%</text>
+<text x="197" y="192" text-anchor="end" font-size="12.5" fill="#E2E8F0" font-weight="bold">Awareness &amp; Training</text>
+<text x="197" y="207" text-anchor="end" font-size="10.5" fill="#22D3EE">88%</text>
+<polygon class="poly" points="360.0,133.8 485.1,217.8 479.3,358.9 360.0,441.2 237.8,360.6 232.0,216.1" fill="url(#fill)" stroke="#22D3EE" stroke-width="2.4" stroke-linejoin="round" filter="url(#rg)"/>
+<circle class="dot" cx="360.0" cy="133.8" r="4.5" fill="#ffffff" filter="url(#rg)"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.4s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle class="dot" cx="485.1" cy="217.8" r="4.5" fill="#ffffff" filter="url(#rg)"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.4s" begin="1.65s" repeatCount="indefinite"/></circle>
+<circle class="dot" cx="479.3" cy="358.9" r="4.5" fill="#ffffff" filter="url(#rg)"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.4s" begin="1.8s" repeatCount="indefinite"/></circle>
+<circle class="dot" cx="360.0" cy="441.2" r="4.5" fill="#ffffff" filter="url(#rg)"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.4s" begin="1.95s" repeatCount="indefinite"/></circle>
+<circle class="dot" cx="237.8" cy="360.6" r="4.5" fill="#ffffff" filter="url(#rg)"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.4s" begin="2.1s" repeatCount="indefinite"/></circle>
+<circle class="dot" cx="232.0" cy="216.1" r="4.5" fill="#ffffff" filter="url(#rg)"><animate attributeName="r" values="4.5;6.5;4.5" dur="2.4s" begin="2.25s" repeatCount="indefinite"/></circle>
+<circle cx="360" cy="290" r="4" fill="#FF2D55" filter="url(#rg)"><animate attributeName="opacity" values="1;0.4;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="360" y="542" text-anchor="middle" font-size="10.5" fill="#64748B" letter-spacing="1">self-assessed focus across core security domains</text>
+</svg>
