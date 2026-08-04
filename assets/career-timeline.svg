@@ -17,6 +17,8 @@
 </defs>
 <rect width="920" height="988" fill="#04060D" rx="14"/>
 <text x="460" y="38" text-anchor="middle" font-size="17" fill="#22D3EE" letter-spacing="2">&gt; git log --career --graph</text>
+<br/>
+<br/>
 <line x1="460" y1="50" x2="460" y2="858" stroke="#1b3a5b" stroke-width="3"/>
 <line x1="460" y1="50" x2="460" y2="858" stroke="url(#spineg)" stroke-width="3" stroke-linecap="round" stroke-dasharray="808" stroke-dashoffset="808" filter="url(#g)"><animate attributeName="stroke-dashoffset" from="808" to="0" dur="2.4s" fill="freeze"/></line>
 <circle cx="460" cy="50" r="5" fill="#ffffff" opacity="0" filter="url(#g)"><animate attributeName="cy" values="50;858;50" dur="4.5s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;1;0" dur="4.5s" begin="2.4s" repeatCount="indefinite"/></circle>
