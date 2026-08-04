@@ -156,6 +156,7 @@ for **women & youth inclusion** in cyber.
 <img src="./assets/divider.svg" width="100%" alt="─────"/>
 
 <!-- ░░░░░░░░░░░░░░░░░░░░  CAREER TIMELINE  ░░░░░░░░░░░░░░░░░░░░ -->
+
 ### `> git log --career --graph`
 
 <div align="center">
