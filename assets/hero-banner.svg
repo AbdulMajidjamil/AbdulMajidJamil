@@ -1,0 +1,398 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 400" width="1200" height="400" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" role="img">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#04060D"/>
+    <stop offset="0.55" stop-color="#0A1120"/>
+    <stop offset="1" stop-color="#04060D"/>
+  </linearGradient>
+  <radialGradient id="vignette" cx="0.5" cy="0.42" r="0.75">
+    <stop offset="0" stop-color="#0d1830" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#04060D" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0.55"/>
+  </linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0"   stop-color="#22D3EE" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.85"/>
+    <stop offset="1"   stop-color="#22D3EE" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="rain" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#67E8F9" stop-opacity="0"/>
+    <stop offset="0.7" stop-color="#22D3EE" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0.95"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softglow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;}
+    .flt1{animation:flt1 6s ease-in-out infinite;}
+    .flt2{animation:flt2 7.5s ease-in-out infinite;}
+    .flt3{animation:flt3 8.5s ease-in-out infinite;}
+    .flt4{animation:flt4 5.5s ease-in-out infinite;}
+    .flt5{animation:flt5 9s ease-in-out infinite;}
+    @keyframes flt1{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+    @keyframes flt2{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+    @keyframes flt3{0%,100%{transform:translateY(0)}50%{transform:translateY(-11px)}}
+    @keyframes flt4{0%,100%{transform:translateY(0)}50%{transform:translateY(-24px)}}
+    @keyframes flt5{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+</defs>
+
+<rect width="1200" height="400" fill="url(#bg)"/>
+<rect width="1200" height="400" fill="url(#vignette)"/>
+<g stroke="#1b3a5b" stroke-width="1" opacity="0.35">
+<line x1="0" y1="255" x2="-840" y2="400"/>
+<line x1="60" y1="255" x2="-696" y2="400"/>
+<line x1="120" y1="255" x2="-552" y2="400"/>
+<line x1="180" y1="255" x2="-408" y2="400"/>
+<line x1="240" y1="255" x2="-264" y2="400"/>
+<line x1="300" y1="255" x2="-120" y2="400"/>
+<line x1="360" y1="255" x2="24" y2="400"/>
+<line x1="420" y1="255" x2="168" y2="400"/>
+<line x1="480" y1="255" x2="312" y2="400"/>
+<line x1="540" y1="255" x2="456" y2="400"/>
+<line x1="600" y1="255" x2="600" y2="400"/>
+<line x1="660" y1="255" x2="744" y2="400"/>
+<line x1="720" y1="255" x2="888" y2="400"/>
+<line x1="780" y1="255" x2="1032" y2="400"/>
+<line x1="840" y1="255" x2="1176" y2="400"/>
+<line x1="900" y1="255" x2="1320" y2="400"/>
+<line x1="960" y1="255" x2="1464" y2="400"/>
+<line x1="1020" y1="255" x2="1608" y2="400"/>
+<line x1="1080" y1="255" x2="1752" y2="400"/>
+<line x1="1140" y1="255" x2="1896" y2="400"/>
+<line x1="1200" y1="255" x2="2040" y2="400"/>
+<line x1="0" y1="258" x2="1200" y2="258" opacity="0.50"/>
+<line x1="0" y1="274" x2="1200" y2="274" opacity="0.47"/>
+<line x1="0" y1="290" x2="1200" y2="290" opacity="0.44"/>
+<line x1="0" y1="306" x2="1200" y2="306" opacity="0.41"/>
+<line x1="0" y1="322" x2="1200" y2="322" opacity="0.38"/>
+<line x1="0" y1="338" x2="1200" y2="338" opacity="0.35"/>
+<line x1="0" y1="354" x2="1200" y2="354" opacity="0.32"/>
+<line x1="0" y1="370" x2="1200" y2="370" opacity="0.29"/>
+<line x1="0" y1="386" x2="1200" y2="386" opacity="0.26"/>
+</g>
+<rect x="0" y="255" width="1200" height="145" fill="#04060D" opacity="0.35"/>
+<g class="mono" font-size="15" opacity="0.9">
+<g transform="translate(15.9,0)">
+  <animateTransform attributeName="transform" type="translate" values="15.9,-160; 15.9,440" dur="4.9s" begin="-3.2s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">E<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">1<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">B<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">&gt;<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#ffffff" opacity="0.95" filter="url(#glow)">A<animate attributeName="opacity" values="0.95;0.55;0.95" dur="1.6s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(63.8,0)">
+  <animateTransform attributeName="transform" type="translate" values="63.8,-160; 63.8,440" dur="8.7s" begin="-5.5s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">B<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">∂<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">B<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">{<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">A<animate attributeName="opacity" values="0.34;0.05;0.34" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">#<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">∆<animate attributeName="opacity" values="0.16;0.05;0.16" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#22D3EE" opacity="0.12">+<animate attributeName="opacity" values="0.12;0.05;0.12" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="160" fill="#ffffff" opacity="0.95" filter="url(#glow)">$<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.6s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(108.8,0)">
+  <animateTransform attributeName="transform" type="translate" values="108.8,-160; 108.8,440" dur="7.2s" begin="-3.6s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">=<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">Σ<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">*<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">*<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">1<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">λ<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">}<animate attributeName="opacity" values="0.16;0.05;0.16" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#22D3EE" opacity="0.12">&amp;<animate attributeName="opacity" values="0.12;0.05;0.12" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="160" fill="#ffffff" opacity="0.95" filter="url(#glow)">}<animate attributeName="opacity" values="0.95;0.55;0.95" dur="1.7s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(151.1,0)">
+  <animateTransform attributeName="transform" type="translate" values="151.1,-160; 151.1,440" dur="8.7s" begin="-3.7s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">Σ<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">Ω<animate attributeName="opacity" values="0.61;0.21;0.61" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">0<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">?<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#ffffff" opacity="0.95" filter="url(#glow)">*<animate attributeName="opacity" values="0.95;0.55;0.95" dur="1.6s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(200.8,0)">
+  <animateTransform attributeName="transform" type="translate" values="200.8,-160; 200.8,440" dur="5.7s" begin="-3.3s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">∆<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">∑<animate attributeName="opacity" values="0.61;0.21;0.61" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">0<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">1<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">*<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">0<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">%<animate attributeName="opacity" values="0.16;0.05;0.16" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#ffffff" opacity="0.95" filter="url(#glow)">F<animate attributeName="opacity" values="0.95;0.55;0.95" dur="1.7s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(241.8,0)">
+  <animateTransform attributeName="transform" type="translate" values="241.8,-160; 241.8,440" dur="5.5s" begin="-0.8s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">]<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">+<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">0<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">∑<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">{<animate attributeName="opacity" values="0.34;0.05;0.34" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">$<animate attributeName="opacity" values="0.25;0.05;0.25" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">D<animate attributeName="opacity" values="0.16;0.05;0.16" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#ffffff" opacity="0.95" filter="url(#glow)">&amp;<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.3s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(289.3,0)">
+  <animateTransform attributeName="transform" type="translate" values="289.3,-160; 289.3,440" dur="5.7s" begin="-0.7s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">B<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">*<animate attributeName="opacity" values="0.61;0.21;0.61" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">∂<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">∂<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">∂<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">∂<animate attributeName="opacity" values="0.25;0.05;0.25" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">E<animate attributeName="opacity" values="0.16;0.05;0.16" dur="1.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#22D3EE" opacity="0.12">!<animate attributeName="opacity" values="0.12;0.05;0.12" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="160" fill="#ffffff" opacity="0.95" filter="url(#glow)">∂<animate attributeName="opacity" values="0.95;0.55;0.95" dur="1.7s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(331.4,0)">
+  <animateTransform attributeName="transform" type="translate" values="331.4,-160; 331.4,440" dur="4.3s" begin="-3.8s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">∑<animate attributeName="opacity" values="0.70;0.30;0.70" dur="3.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">$<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">[<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">0<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">1<animate attributeName="opacity" values="0.34;0.05;0.34" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">!<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">F<animate attributeName="opacity" values="0.16;0.05;0.16" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#22D3EE" opacity="0.12">F<animate attributeName="opacity" values="0.12;0.05;0.12" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="160" fill="#ffffff" opacity="0.95" filter="url(#glow)">?<animate attributeName="opacity" values="0.95;0.55;0.95" dur="1.7s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(372.3,0)">
+  <animateTransform attributeName="transform" type="translate" values="372.3,-160; 372.3,440" dur="8.8s" begin="-4.6s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">1<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">λ<animate attributeName="opacity" values="0.61;0.21;0.61" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">D<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">[<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">1<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#ffffff" opacity="0.95" filter="url(#glow)">%<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.4s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(426.5,0)">
+  <animateTransform attributeName="transform" type="translate" values="426.5,-160; 426.5,440" dur="7.8s" begin="-1.5s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">∂<animate attributeName="opacity" values="0.70;0.30;0.70" dur="3.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">{<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">&lt;<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">?<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">0<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#ffffff" opacity="0.95" filter="url(#glow)">1<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.0s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(471.7,0)">
+  <animateTransform attributeName="transform" type="translate" values="471.7,-160; 471.7,440" dur="7.7s" begin="-2.7s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">D<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">{<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">E<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">{<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">!<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">&lt;<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#ffffff" opacity="0.95" filter="url(#glow)">Ω<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.7s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(508.0,0)">
+  <animateTransform attributeName="transform" type="translate" values="508.0,-160; 508.0,440" dur="7.4s" begin="-6.7s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">!<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">&amp;<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">=<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">Ω<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">D<animate attributeName="opacity" values="0.34;0.05;0.34" dur="3.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#ffffff" opacity="0.95" filter="url(#glow)">∂<animate attributeName="opacity" values="0.95;0.55;0.95" dur="1.5s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(559.1,0)">
+  <animateTransform attributeName="transform" type="translate" values="559.1,-160; 559.1,440" dur="6.4s" begin="-4.2s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">!<animate attributeName="opacity" values="0.70;0.30;0.70" dur="3.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">0<animate attributeName="opacity" values="0.61;0.21;0.61" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">$<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">#<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">1<animate attributeName="opacity" values="0.34;0.05;0.34" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">0<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">E<animate attributeName="opacity" values="0.16;0.05;0.16" dur="2.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#22D3EE" opacity="0.12">#<animate attributeName="opacity" values="0.12;0.05;0.12" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="160" fill="#ffffff" opacity="0.95" filter="url(#glow)">=<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.3s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(607.0,0)">
+  <animateTransform attributeName="transform" type="translate" values="607.0,-160; 607.0,440" dur="4.5s" begin="-3.3s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">+<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">#<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">$<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">1<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">/<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">&amp;<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">0<animate attributeName="opacity" values="0.16;0.05;0.16" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#ffffff" opacity="0.95" filter="url(#glow)">$<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.7s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(643.3,0)">
+  <animateTransform attributeName="transform" type="translate" values="643.3,-160; 643.3,440" dur="6.9s" begin="-1.7s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">A<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">E<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">/<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">1<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">C<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">/<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#ffffff" opacity="0.95" filter="url(#glow)">Σ<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.2s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(698.3,0)">
+  <animateTransform attributeName="transform" type="translate" values="698.3,-160; 698.3,440" dur="7.6s" begin="-6.6s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">&lt;<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">/<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">#<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">+<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">F<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">∂<animate attributeName="opacity" values="0.25;0.05;0.25" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#ffffff" opacity="0.95" filter="url(#glow)">/<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.7s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(743.3,0)">
+  <animateTransform attributeName="transform" type="translate" values="743.3,-160; 743.3,440" dur="7.3s" begin="-2.7s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">#<animate attributeName="opacity" values="0.70;0.30;0.70" dur="3.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">*<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">{<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">E<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">∂<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">?<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#ffffff" opacity="0.95" filter="url(#glow)">%<animate attributeName="opacity" values="0.95;0.55;0.95" dur="1.8s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(780.8,0)">
+  <animateTransform attributeName="transform" type="translate" values="780.8,-160; 780.8,440" dur="7.7s" begin="-0.1s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">*<animate attributeName="opacity" values="0.70;0.30;0.70" dur="3.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">/<animate attributeName="opacity" values="0.61;0.21;0.61" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">1<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">∑<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">Ω<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">∆<animate attributeName="opacity" values="0.25;0.05;0.25" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">C<animate attributeName="opacity" values="0.16;0.05;0.16" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#22D3EE" opacity="0.12">F<animate attributeName="opacity" values="0.12;0.05;0.12" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="160" fill="#ffffff" opacity="0.95" filter="url(#glow)">{<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.9s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(831.8,0)">
+  <animateTransform attributeName="transform" type="translate" values="831.8,-160; 831.8,440" dur="5.4s" begin="-0.8s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">?<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">Σ<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">D<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">]<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">B<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">&amp;<animate attributeName="opacity" values="0.25;0.05;0.25" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">=<animate attributeName="opacity" values="0.16;0.05;0.16" dur="2.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#22D3EE" opacity="0.12">C<animate attributeName="opacity" values="0.12;0.05;0.12" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="160" fill="#ffffff" opacity="0.95" filter="url(#glow)">]<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.0s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(873.6,0)">
+  <animateTransform attributeName="transform" type="translate" values="873.6,-160; 873.6,440" dur="8.6s" begin="-2.3s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">A<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">}<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">F<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">%<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">[<animate attributeName="opacity" values="0.34;0.05;0.34" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#ffffff" opacity="0.95" filter="url(#glow)">B<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.2s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(920.1,0)">
+  <animateTransform attributeName="transform" type="translate" values="920.1,-160; 920.1,440" dur="5.5s" begin="-4.4s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">A<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">0<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">1<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">&lt;<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.2s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">!<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">}<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#ffffff" opacity="0.95" filter="url(#glow)">/<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.3s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(965.3,0)">
+  <animateTransform attributeName="transform" type="translate" values="965.3,-160; 965.3,440" dur="8.9s" begin="-3.1s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">∂<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">0<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">B<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">#<animate attributeName="opacity" values="0.43;0.05;0.43" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">0<animate attributeName="opacity" values="0.34;0.05;0.34" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#ffffff" opacity="0.95" filter="url(#glow)">C<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.1s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(1008.1,0)">
+  <animateTransform attributeName="transform" type="translate" values="1008.1,-160; 1008.1,440" dur="8.9s" begin="-5.3s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">A<animate attributeName="opacity" values="0.70;0.30;0.70" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">*<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">&amp;<animate attributeName="opacity" values="0.52;0.12;0.52" dur="3.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">%<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">]<animate attributeName="opacity" values="0.34;0.05;0.34" dur="1.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">/<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#ffffff" opacity="0.95" filter="url(#glow)">0<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.0s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(1051.3,0)">
+  <animateTransform attributeName="transform" type="translate" values="1051.3,-160; 1051.3,440" dur="4.2s" begin="-1.6s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">]<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.1s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">&lt;<animate attributeName="opacity" values="0.61;0.21;0.61" dur="1.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">}<animate attributeName="opacity" values="0.52;0.12;0.52" dur="1.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">0<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.0s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">D<animate attributeName="opacity" values="0.34;0.05;0.34" dur="1.8s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">[<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">D<animate attributeName="opacity" values="0.16;0.05;0.16" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#ffffff" opacity="0.95" filter="url(#glow)">$<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.6s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(1099.9,0)">
+  <animateTransform attributeName="transform" type="translate" values="1099.9,-160; 1099.9,440" dur="7.6s" begin="-6.7s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">Σ<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.9s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">?<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.6s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">$<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">∆<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#22D3EE" opacity="0.34">$<animate attributeName="opacity" values="0.34;0.05;0.34" dur="1.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="100" fill="#22D3EE" opacity="0.25">A<animate attributeName="opacity" values="0.25;0.05;0.25" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="120" fill="#22D3EE" opacity="0.16">=<animate attributeName="opacity" values="0.16;0.05;0.16" dur="2.7s" repeatCount="indefinite"/></text>
+  <text x="0" y="140" fill="#ffffff" opacity="0.95" filter="url(#glow)">#<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.6s" repeatCount="indefinite"/></text>
+</g>
+<g transform="translate(1148.5,0)">
+  <animateTransform attributeName="transform" type="translate" values="1148.5,-160; 1148.5,440" dur="7.3s" begin="-0.6s" repeatCount="indefinite" additive="replace"/>
+  <text x="0" y="0" fill="#22D3EE" opacity="0.70">#<animate attributeName="opacity" values="0.70;0.30;0.70" dur="2.3s" repeatCount="indefinite"/></text>
+  <text x="0" y="20" fill="#22D3EE" opacity="0.61">1<animate attributeName="opacity" values="0.61;0.21;0.61" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="40" fill="#22D3EE" opacity="0.52">E<animate attributeName="opacity" values="0.52;0.12;0.52" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="0" y="60" fill="#22D3EE" opacity="0.43">∑<animate attributeName="opacity" values="0.43;0.05;0.43" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="0" y="80" fill="#ffffff" opacity="0.95" filter="url(#glow)">/<animate attributeName="opacity" values="0.95;0.55;0.95" dur="2.2s" repeatCount="indefinite"/></text>
+</g>
+</g>
+<g>
+<path d="M18,44 L18,18 L44,18" fill="none" stroke="#22D3EE" stroke-width="2.5" opacity="0.85"/>
+<path d="M1156,18 L1182,18 L1182,44" fill="none" stroke="#22D3EE" stroke-width="2.5" opacity="0.85"/>
+<path d="M18,356 L18,382 L44,382" fill="none" stroke="#22D3EE" stroke-width="2.5" opacity="0.85"/>
+<path d="M1156,382 L1182,382 L1182,356" fill="none" stroke="#22D3EE" stroke-width="2.5" opacity="0.85"/>
+</g>
+<g opacity="0.9">
+<circle cx="1000" cy="150" r="92" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.22"/>
+<circle cx="1000" cy="150" r="63" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.22"/>
+<circle cx="1000" cy="150" r="33" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.22"/>
+<line x1="908" y1="150" x2="1092" y2="150" stroke="#22D3EE" stroke-width="0.8" opacity="0.18"/>
+<line x1="1000" y1="58" x2="1000" y2="242" stroke="#22D3EE" stroke-width="0.8" opacity="0.18"/>
+<g>
+  <path d="M1000,150 L1092,150 A92,92 0 0 0 1046,70 Z" fill="url(#sweep)" opacity="0.5"/>
+  <line x1="1000" y1="150" x2="1092" y2="150" stroke="#67E8F9" stroke-width="2" filter="url(#glow)"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 1000 150" to="360 1000 150" dur="4s" repeatCount="indefinite"/>
+</g>
+<circle cx="1032" cy="118" r="3" fill="#FF2D55" filter="url(#glow)"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="0.5s" repeatCount="indefinite"/></circle>
+<circle cx="975" cy="190" r="3" fill="#FF2D55" filter="url(#glow)"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="1.6s" repeatCount="indefinite"/></circle>
+<circle cx="1040" cy="175" r="3" fill="#FF2D55" filter="url(#glow)"><animate attributeName="opacity" values="0;1;0" dur="4s" begin="2.7s" repeatCount="indefinite"/></circle>
+</g>
+<g class="flt1" filter="url(#softglow)" opacity="0.85"><path transform="translate(150,312) scale(1.3)" d="M0,-14 L12,-9 L12,3 C12,12 6,16 0,19 C-6,16 -12,12 -12,3 L-12,-9 Z" fill="none" stroke="#22D3EE" stroke-width="1.6"/><path transform="translate(150,312) scale(1.3)" d="M-5,1 L-1,6 L6,-4" fill="none" stroke="#22D3EE" stroke-width="1.8" stroke-linecap="round"/></g>
+<g class="flt2" filter="url(#softglow)" opacity="0.7"><g transform="translate(1130,300) scale(1.1)" fill="none" stroke="#67E8F9" stroke-width="1.6"><rect x="-9" y="-2" width="18" height="15" rx="2"/><path d="M-5,-2 L-5,-7 A5,5 0 0 1 5,-7 L5,-2"/><circle cx="0" cy="5" r="2" fill="#67E8F9"/></g></g>
+<g class="flt3" filter="url(#softglow)" opacity="0.6"><g transform="translate(740,312) scale(1.05)" fill="none" stroke="#FF2D55" stroke-width="1.5" stroke-linecap="round"><ellipse cx="0" cy="1" rx="6" ry="8"/><line x1="0" y1="-7" x2="0" y2="9"/><path d="M-6,-3 L-11,-6 M6,-3 L11,-6 M-6,1 L-12,1 M6,1 L12,1 M-6,5 L-11,8 M6,5 L11,8"/><path d="M-3,-7 L-6,-11 M3,-7 L6,-11"/></g></g>
+<g class="flt4" filter="url(#softglow)" opacity="0.65"><g transform="translate(330,318) scale(1.15)" fill="none" stroke="#34D399" stroke-width="1.6" stroke-linecap="round"><circle cx="-6" cy="0" r="6"/><line x1="0" y1="0" x2="12" y2="0"/><line x1="9" y1="0" x2="9" y2="5"/><line x1="12" y1="0" x2="12" y2="4"/></g></g>
+<g class="flt5" filter="url(#softglow)" opacity="0.55"><g transform="translate(1130,92) scale(1.0)" fill="none" stroke="#22D3EE" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="-12" y="-9" width="24" height="18" rx="2"/><path d="M-7,-3 L-3,0 L-7,3 M-1,4 L6,4"/></g></g>
+<g class="mono">
+  <text x="60" y="120" font-size="15" letter-spacing="6" fill="#34D399" opacity="0.9">&gt; ./whoami --identity<animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></text>
+  <text x="60" y="180" font-size="52" font-weight="800" letter-spacing="1" fill="#FF2D55" opacity="0.65">ABDUL MAJID JAMIL<animate attributeName="x" values="60;57;62;60;60;58;60" keyTimes="0;0.02;0.04;0.06;0.5;0.52;1" dur="4s" repeatCount="indefinite"/></text>
+  <text x="60" y="180" font-size="52" font-weight="800" letter-spacing="1" fill="#67E8F9" opacity="0.6">ABDUL MAJID JAMIL<animate attributeName="x" values="60;63;58;60;60;62;60" keyTimes="0;0.02;0.04;0.06;0.5;0.52;1" dur="4s" repeatCount="indefinite"/></text>
+  <text x="60" y="180" font-size="52" font-weight="800" letter-spacing="1" fill="#E2E8F0" filter="url(#glow)">ABDUL MAJID JAMIL</text>
+</g>
+<text x="62" y="216" class="mono" font-size="17" letter-spacing="2" fill="#22D3EE">Founder &amp; Executive Director, PCSDF  //  Cybersecurity Researcher &amp; Consultant</text>
+<text x="62" y="240" class="mono" font-size="13.5" letter-spacing="3" fill="#64748B">VAPT &#183; DIGITAL FORENSICS &#183; SOC / SIEM &#183; INCIDENT RESPONSE &#183; ETHICAL HACKING</text>
+<rect x="0" y="0" width="1200" height="3" fill="url(#scan)" opacity="0.7"><animate attributeName="y" values="60;330;60" dur="6s" repeatCount="indefinite"/></rect>
+<g class="mono" font-size="12.5" letter-spacing="1">
+  <circle cx="66" cy="366" r="5" fill="#34D399" filter="url(#glow)"><animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
+  <text x="80" y="370" fill="#34D399">SYSTEM SECURE</text>
+  <text x="210" y="370" fill="#64748B">LOC: KARACHI, PK</text>
+  <text x="390" y="370" fill="#64748B">UPTIME: 24/7</text>
+  <text x="550" y="370" fill="#22D3EE">THREATS_MITIGATED: &#8734;</text>
+</g>
+</svg>
